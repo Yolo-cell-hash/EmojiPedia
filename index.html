@@ -35,8 +35,11 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./main.html">Smileys</a>
     <a href="./animals.html">Animals</a>
+    <a href="./hearts.html">Hearts</a>
+    <div class="dropdown-divider"></div>
     <a href="./about.html">About</a>
     <a href="#">Developer</a>
+    <div class="dropdown-divider"></div>
     <a href="#">Contact</a>
   </div>
   <!-- Use any element to open the sidenav -->
@@ -47,7 +50,17 @@
     <span><img src="https://img.icons8.com/emoji/96/000000/magic-wand.png"/></span>
      EmojiPedia
      <span><img src="https://img.icons8.com/emoji/96/000000/-emoji-firecracker.png"/></span>
-     <a href="./main.html" class="btn btn-outline-secondary btn-lg active btn_mid" role="button" aria-pressed="true">Explore</a>
+     <!-- <a href="./main.html" class="btn btn-outline-secondary btn-lg active btn_mid" role="button" aria-pressed="true">Explore</a> -->
+     <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle btn-lg btn_mid" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Explore
+      </button>
+      <div class="dropdown-menu btn_mid" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item btn_mid" href="./main.html">Smileys</a>
+        <a class="dropdown-item btn_mid" href="./animals.html">Animals</a>
+        <a class="dropdown-item btn_mid" href="./hearts.html">Hearts</a>
+      </div>
+    </div>
     </div>
 
 </div> -->
