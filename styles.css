@@ -89,6 +89,14 @@ body {
   }
 
   /* ANIMATION */
+  .body_index{
+    background: linear-gradient(-45deg, #1f1212,#20201685, #1f1929, #251923, #1c232c, #231525, #271313);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    height: 100vh;
+  }
+  
+  
   body {
     background: linear-gradient(-45deg, #1f1212,#20201685, #1f1929, #251923, #1c232c, #231525, #271313);
     background-size: 400% 400%;
@@ -161,3 +169,28 @@ body {
    margin-top: 2rem;
    margin-bottom: 3rem;
  }
+
+ /* Mobile Resolution */
+
+ @media (max-width:1125px)  {
+
+  .card_item{
+    margin-left: 3.5rem;
+  }
+
+  .btn_home{
+    margin-left: 40%;
+  }
+
+  .centered{
+    font-size: 10rem;
+  }
+
+  .sidenav{
+    height: 35%;
+  }
+
+  .sidenav a {
+    font-size: 2rem;
+  }
+}
