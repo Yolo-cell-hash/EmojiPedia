@@ -88,6 +88,10 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
   }
 
+  .dropdown-menu{
+    background-color: #ea80fc;
+  }
+
   /* ANIMATION */
   .body_index{
     background: linear-gradient(-45deg, #1f1212,#20201685, #1f1929, #251923, #1c232c, #231525, #271313);
@@ -189,7 +193,8 @@ body {
  @media (max-width:1125px)  {
 
   .card_item{
-    margin-left: 3.5rem;
+    margin-left: 3.6rem;
+    background: #03dac6;
   }
 
   .btn_home{
@@ -201,7 +206,7 @@ body {
   }
 
   .sidenav{
-    height: 35%;
+    height: 30%;
   }
 
   .sidenav a {
@@ -219,11 +224,13 @@ body {
 
     .body_index{
       height: 140vh;
+      background: #1e1e1e;
     }
 
     body{
       height: 550vh;
       scroll-behavior: smooth;
+      background: #1e1e1e;
     }
 
     .btn_mid{
@@ -232,5 +239,13 @@ body {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
       font-size: 3rem;
+    }
+
+    .sidenav{
+      background-color:#03dac6 ;
+    }
+
+    .dropdown-menu{
+      background-color: #03dac6;
     }
 }
