@@ -164,11 +164,25 @@ body {
   }
 
  .btn_home{
-   margin-left: 50%;
+   margin-left: 45%;
    text-align: center;
    margin-top: 2rem;
    margin-bottom: 3rem;
  }
+
+
+ /* DEVELOPER */
+
+ .dev_img{
+   width: 200px;
+   height: 200px;
+   margin-left: 43%;
+   margin-top: 2rem;
+   margin-bottom: 1.5rem;
+ }
+
+
+
 
  /* Mobile Resolution */
 
@@ -193,4 +207,30 @@ body {
   .sidenav a {
     font-size: 2rem;
   }
+
+  .about-text{
+    text-align: left;
+    margin: 2.5rem 4rem;
+    }
+
+    .dev_img{
+      margin-left: 25%;
+    }
+
+    .body_index{
+      height: 140vh;
+    }
+
+    body{
+      height: 550vh;
+      scroll-behavior: smooth;
+    }
+
+    .btn_mid{
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      font-size: 3rem;
+    }
 }
