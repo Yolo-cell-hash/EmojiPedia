@@ -167,6 +167,10 @@ body {
     color: black;
   }
 
+  .btn_abt{
+    margin-left: 48%;
+  }
+
  .btn_home{
    margin-left: 45%;
    text-align: center;
