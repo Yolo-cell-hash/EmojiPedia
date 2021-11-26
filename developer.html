@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer</title>
+    <title>About</title>
 
 
       <!-- Bootstarp CDN'S -->
@@ -35,11 +35,34 @@
 </head>
 <body class="body_index">
     
+      <!-- Navbar on Left   -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <div class="dropdown-divider"></div>
+        <a href="./main.html">Smileys</a>
+        <a href="./animals.html">Animals</a>
+        <a href="./hearts.html">Hearts</a>
+        <div class="dropdown-divider"></div>
+        <a href="./about.html">About</a>
+        <a href="./developer.html">Developer</a>
+        <div class="dropdown-divider"></div>
+        <a href="#">Contact</a>
+      </div>
+     
+      <!-- Use any element to open the sidenav -->
+      
+        <div class="sidebar_pad">
+          <span  onclick="openNav()"><i class="fas fa-bars fa-3x"></i></span>
+        </div>  
+
+
+
     <h2 class="about-head">Developer</h2>
 
     <img class="dev_img" src="images/coding.png" alt="Developer Image">
 
-    <p class="about-text">
+    <p class="about-text ">
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo a massa eget rutrum. Donec mi dui, tincidunt nec leo sit amet, malesuada tincidunt massa. Duis non consequat purus. Aliquam finibus volutpat purus, at tempor eros suscipit auctor. Ut mollis, sapien vel egestas porttitor, orci mi iaculis enim, vel gravida ante dui ac nunc. Integer tincidunt metus at tellus fringilla, eu scelerisque tortor euismod. Donec massa tellus, viverra eleifend laoreet ut, consectetur id ligula. Nam et convallis ex. Fusce id lacinia velit. Aliquam ornare vehicula neque.
         Integer tellus mauris, mattis vel volutpat ac, sagittis nec velit. Sed rutrum pharetra sem, ut sodales turpis dignissim at. Integer pharetra purus condimentum molestie ultricies. Aenean sit amet luctus tellus. Integer imperdiet tempor purus, ac efficitur sapien tincidunt tempor. Integer rhoncus risus at dolor mattis convallis. Maecenas fermentum risus vel eros venenatis congue. Nulla facilisi. Nulla vel lorem non leo posuere tincidunt. Nam nec tempus turpis, nec auctor lectus. In eleifend pulvinar suscipit.
         <br> 
@@ -48,5 +71,6 @@
       </p>
       <a href="./index.html" class="btn btn-outline-secondary btn-lg active btn_abt pd_btm" role="button" aria-pressed="true">Home</a>
 
+    <script src="index.js"></script>
 </body>
 </html>

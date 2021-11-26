@@ -21,7 +21,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color:  #ea80fc; /* Black*/
+    background-color:  #59365f; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -32,14 +32,15 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #3c4042;
+    color: #A9A9A9;
+    /* color: #3c4042; */
     display: block;
     transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #fff;
   }
   
   /* Position and style the close button (top right corner) */
@@ -168,7 +169,7 @@ body {
   }
 
   .btn_abt{
-    margin-left: 49%;
+    margin-left: 48%;
   }
 
  .btn_home{
@@ -189,9 +190,10 @@ body {
    margin-bottom: 1.5rem;
  }
 
-.pd_btm{
-margin-bottom: 3.5rem;
-}
+ .pd_btm{
+   margin-bottom: 3.5rem;
+ }
+
 
 
 
@@ -213,12 +215,11 @@ margin-bottom: 3.5rem;
   }
 
   .sidenav{
-    height: 30%;
+    height: 500px;
   }
-
-  .sidenav a {
-    font-size: 2rem;
-  }
+  /* .sidenav a {
+    font-size: 25px;
+  } */
 
   .about-text{
     text-align: left;
@@ -238,6 +239,9 @@ margin-bottom: 3.5rem;
       height: 550vh;
       scroll-behavior: smooth;
       background: #1e1e1e;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+      
     }
 
     .btn_mid{
@@ -249,10 +253,22 @@ margin-bottom: 3.5rem;
     }
 
     .sidenav{
-      background-color:#03dac6 ;
+      background-color:#016e63 ;
     }
 
     .dropdown-menu{
-      background-color: #03dac6;
+      background-color: #016e63;
+    }
+
+    .other-link{
+      font-size: 25px;
+    }
+
+   .sidenav .home-link{
+      font-size: 40px;
+    }
+
+    .sidenav-home{
+      height: 725px;
     }
 }

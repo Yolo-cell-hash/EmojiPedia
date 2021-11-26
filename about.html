@@ -34,6 +34,27 @@
 
 </head>
 <body class="body_index">
+
+      <!-- Navbar on Left   -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <div class="dropdown-divider"></div>
+        <a href="./main.html">Smileys</a>
+        <a href="./animals.html">Animals</a>
+        <a href="./hearts.html">Hearts</a>
+        <div class="dropdown-divider"></div>
+        <a href="./about.html">About</a>
+        <a href="./developer.html">Developer</a>
+        <div class="dropdown-divider"></div>
+        <a href="#">Contact</a>
+      </div>
+     
+      <!-- Use any element to open the sidenav -->
+      
+        <div class="sidebar_pad">
+          <span  onclick="openNav()"><i class="fas fa-bars fa-3x"></i></span>
+        </div>  
     
     <h2 class="about-head">About</h2>
     <p class="about-text">
@@ -45,5 +66,7 @@
       </p>
       <a href="./index.html" class="btn btn-outline-secondary btn-lg active btn_abt" role="button" aria-pressed="true">Home</a>
 
+
+  <script src="index.js"></script>
 </body>
 </html>
