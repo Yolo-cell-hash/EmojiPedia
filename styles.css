@@ -243,6 +243,10 @@ body {
       scrollbar-width: none;  /* Firefox */
       
     }
+    .btn_abt{
+      margin-left: 35%;
+      margin-bottom: 3rem;
+    }
 
     .btn_mid{
       padding-top: 1rem;
